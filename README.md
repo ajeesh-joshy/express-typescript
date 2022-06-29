@@ -1,3 +1,6 @@
+Build Status : ![build](https://github.com/ajeesh-joshy/express-typescript/actions/workflows/build.yml/badge.svg)
+
+
 Install typescript
 npm install typescript -D
 
