@@ -9,6 +9,6 @@ test("GET /", async () => {
         .get('/')
         .expect(200)
         .then((response) => {
-            expect(response.text).toEqual("Hello World");
+            expect(response.text).toEqual("Hello World!");
         })
 })
