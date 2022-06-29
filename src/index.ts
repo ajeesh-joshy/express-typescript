@@ -1,13 +1,9 @@
-import express, { Request, Response } from 'express';
+import { createServer } from "./server";
 
-const app = express()
-const port = 3000
+const port = 3000;
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World!!')
-})
-
+const app = createServer();
 app.listen(port, () => {
-  // eslint-disable-next-line no-console
-  console.log(`Example app listening on port ${port}`)
+    // eslint-disable-next-line no-console
+    console.log(`App listening on the port ${port}`);    
 })
